@@ -45,13 +45,26 @@
   height: 100vh;
   transition: background-image 2s ease-in-out, opacity 1s;
 }
-
+.movie-box {
+  background-position: center;
+  background-size: auto;
+}
 .box {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 30vh;
-  width: 20vw;
+  height: 50vh;
+  width: 65vw;
   background-color: grey;
-  opacity: 0.2;
+  opacity: 0.5;
+  border-radius: 15px;
+}
+.input-boxes {
+  display: flex;
+  gap:15px;
+  
+}
+.btn-grps {
+  display: flex;
+  gap:15px;
 }
