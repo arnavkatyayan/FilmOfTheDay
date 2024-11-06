@@ -94,7 +94,7 @@ function MainPage() {
           <Button variant="success" onClick={getMovie}>Movie Time!</Button>
           <Button variant="danger" onClick={handleReset}>Reset</Button>
         </div>
-      </div>:<MovieComp movieList={movieList} />}
+      </div>:<MovieComp movieList={movieList} setOpenMovieComp={setOpenMovieComp} />}
     </div>
   );
 }

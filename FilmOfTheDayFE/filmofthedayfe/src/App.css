@@ -68,3 +68,24 @@
   display: flex;
   gap:15px;
 }
+.overview {
+  color: white;
+}
+.btns {
+display: flex;
+gap:10px;
+justify-content: center;
+}
+.movies-details {
+  text-align: center;
+}
+.saving-options {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.saving-btn {
+  display: flex;
+  justify-content: center;
+}
